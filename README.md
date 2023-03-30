@@ -1,10 +1,8 @@
 # ***Spherical Harmonics Expansion***
 
-Reconstruction of 3D objects using spherical harmonic function expansion method based on Matlab
+Reconstruction of 3D objects using spherical harmonic function expansion method based on Matlab.
 
-This is an example of reconstructing a 3D cylinder in stl format through spherical harmonic expansion based on matlab:
-
-The main program ***"testmain. m"*** is given in the ***"Matlab Script"*** folder. You need to place the ***STL*** file in the same folder as the main program and related subprograms, run it, and obtain a ***"cyclinder. dat"*** file.
+This is an example of reconstructing a 3D cylinder in stl format through spherical harmonic expansion based on matlab:The main program ***"testmain. m"*** is given in the ***"Matlab Script"*** folder. You need to place the ***STL*** file in the same folder as the main program and related subprograms, run it, and obtain a ***"cyclinder. dat"*** file.
 <div align=center><img src="https://github.com/JiabaoCottage/SHE-and-LS-DEM/blob/master/SPH/Image/cylinder.jpg">
 </div>
 
