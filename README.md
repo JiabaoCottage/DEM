@@ -7,7 +7,6 @@ This is an example of reconstructing a 3D cylinder in ***STL*** format through s
 The following figure shows the results after running through ***Matlab***.
 <div align=center><img src="https://github.com/JiabaoCottage/SHE-and-LS-DEM/blob/master/SPH/Image/cylinder.jpg" width="600px">
 </div>
-
 <p align="center">Figure 1: Cylindrical body reconstructed by Matlab through spherical harmonic function.</p>
 
 
@@ -25,8 +24,7 @@ The following figure shows the process diagram of a cylinder falling based on th
 
 
 
-<div align=center><img src="https://github.com/JiabaoCottage/SHE-and-LS-DEM/blob/master/LS-DEM/Video/cylinder.gif?raw=true" width="600px" >
-</div>
 
+<div align=center><img src="https://github.com/JiabaoCottage/SHE-and-LS-DEM/blob/master/LS-DEM/Video/cylinder.gif" width="600px">
 <p align="center">Figure 2: A 3D cylindrical motion model.</p>
 
