@@ -58,7 +58,7 @@ O.bodies.append(levelSetBody(shape='box',center=(0,100,0),extents=(30,102,0.1),s
 O.engines = [ForceResetter()
              ,InsertionSortCollider([Bo1_LevelSet_Aabb()],verletDist=0) 
              ,InteractionLoop([Ig2_LevelSet_LevelSet_ScGeom()],
-                              [Ip2_FrictViscoMat_FrictViscoMat_FrictViscoPhys(kn = MatchMaker(algo = 'val',val = 1.e9),kRatio = MatchMaker(algo = 'val',val = 7e8))],
+                              [Ip2_FrictViscoMat_FrictViscoMat_FrictViscoPhys(kn = MatchMaker(algo = 'val',val = 1.e9),kRatio = MatchMaker(algo = 'val',val = 0.7))],
                               [Law2_ScGeom_FrictViscoPhys_CundallStrackVisco(sphericalBodies=False)],
                               )
              ,NewtonIntegrator(kinSplit=True,damping=0,label='newton',gravity = (0,0,0-9.8))
